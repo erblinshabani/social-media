@@ -1,0 +1,101 @@
+.sidebar {
+    flex: 0.2;
+    margin-left: 6px;
+    border-radius: 12px;
+    height: fit-content;
+    position: sticky;
+    top: 6px;
+    left: 0;
+}
+
+.backgroundImage {
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px 12px 0 0;
+}
+
+.sidebar-top {
+    background-color: #fff;
+    padding-bottom: 8px;
+    border-radius: 12px;
+}
+
+.sidebar-top img{
+    width: 45px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -25px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.sidebar-top img:hover {
+    width: 50px;
+    margin-top: -30px;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.sidebar-top h2 {
+    margin-bottom: 4px;
+}
+
+.sidebar-top h4 {
+    margin-top: 0;
+    color: rgba(104, 104, 104, 0.927);
+}
+
+.sidebar-bottom {
+    margin-top: 10px;
+    background-color: #fff;
+    padding-bottom: 8px;
+    border-radius: 12px;
+}
+
+.sidebar-bottom h2 {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar-bottom ul {
+    margin-top: 13px;
+    padding: 0 12px;
+}
+
+.sidebar-bottom ul li {
+    list-style: none;
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sidebar-bottom ul li:hover {
+    background-color: rgba(235, 234, 234, 0.866);
+}
+
+.sidebar-bottom ul li span {
+    margin-right: 6px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }   
+    .sidebarActive {
+        display: block;
+        z-index: 1000;
+        position: absolute;
+        width: 100%;
+        top: 150px;
+        left: 0;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #444;
+        margin: 0;
+    }
+}

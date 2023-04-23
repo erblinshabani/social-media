@@ -1,0 +1,29 @@
+.linksNav {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .linksNav {
+        display: flex;
+        justify-content: space-evenly
+    }
+    
+    .linksNav div {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0.8;
+    }
+
+    .linksNav div img {
+        width: 32px;
+        margin: 0;
+        padding: 0
+    }
+    
+    .linksNav div h2 {
+        margin: 0;
+        padding: 0
+    }
+}

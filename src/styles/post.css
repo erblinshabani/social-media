@@ -1,0 +1,125 @@
+.allPosts {
+    margin-top: 18px;
+    background-color: #fff;
+    padding-left: 13px;
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    padding: 12px 2px;
+    padding-bottom: 8px;
+}
+
+.postHeader img{
+    width: 38px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.postHeader-body h3 {
+    font-size: 21px;
+    margin: 0;
+}
+.postHeader-body p {
+    font-size: 16px;
+    margin: 0;
+    opacity: 0.7;
+}
+
+.postBody {
+    padding: 5px 15px;
+    padding-right: 0;
+}
+
+.postFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+.upload:hover {
+    background-color: rgba(215, 214, 214, 0.814);
+    transition: all 0.14s;
+}
+
+.upload img {
+    width: 23px;
+    margin-right: 10px;
+    object-fit: fill;
+}
+
+@media only screen and (max-width: 1000px) {
+    .postHeader {
+        margin-left: 4px;
+    }
+    .postHeader img{
+        width: 45px;
+    }
+
+    .postHeader-body h3 {
+        font-size: 24px;
+    }
+    .postHeader-body p {
+        font-size: 18px;
+        margin: 0;
+        opacity: 0.7;
+    }
+
+    .postBody p {
+        font-size: 22px;
+    }
+
+    #likesAmount {
+        font-size: 19px;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .postFooter {
+        margin-top: 21px;
+    }
+
+    .upload img {
+        width: 29px
+    }
+
+    .upload span {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .allPosts {
+        padding: 0 5px;
+    }
+
+    .postCreate {
+        padding: 10px 8px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .upload {
+        padding: 6px 5px;
+    }
+
+    .upload img {
+        width: 24px;
+        margin-right: 6px;
+    }
+
+    .postFooter {
+        margin-top: 15px;
+    }
+}

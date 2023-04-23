@@ -1,0 +1,51 @@
+.page {
+    flex: 0.6;
+    padding-left: 20px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.page-create-notes {
+    display: flex;
+    justify-content: center;
+}
+
+.page-create-notes input {
+    width: 270px;
+    height: 22px;
+    margin: 0 5px;
+}
+
+.notes {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.notes-card {
+    /* background-color: #111; */
+    color: #111;
+    border: 1px solid #111;
+    cursor: pointer;
+    width: 300px;
+    padding: 2px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.notes-card:hover {
+    color: #fff;
+    background-color: #111;
+    transition: all 0.2s;
+}
+.notes-card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notes-card p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
